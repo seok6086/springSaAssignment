@@ -7,8 +7,8 @@ public class Korean {
     String ssn;
 
     //생성자
-    public Korean(String n, String s) {
-        name = n;
-        ssn = s;
+    public Korean(String name, String ssn) {
+        this.name = name; //매개변수
+        this.ssn = ssn; //매개변수
     }
 }
